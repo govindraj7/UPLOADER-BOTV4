@@ -23,7 +23,7 @@ class Config(object):
 
     DOWNLOAD_LOCATION = "./DOWNLOADS"
 
-    UPDATE_CHANNEL = os.environ.get("UPDATE_CHANNEL", "")
+    UPDATE_CHANNEL = os.environ.get("UPDATE_CHANNEL", "-1001938062638")
 
     MAX_FILE_SIZE = 4194304000
 
@@ -43,13 +43,13 @@ class Config(object):
 
     PROCESS_MAX_TIMEOUT = 0
 
-    DEF_WATER_MARK_FILE = "Use this bot dangeruploadbot"
+    DEF_WATER_MARK_FILE = "Use this bot @dangeruploadbot"
 
     DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://shashank:thanos2006@cluster0.qmqabf0.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 
     SESSION_NAME = os.environ.get("SESSION_NAME", "dangeruploadbot")
 
-    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", -1001642382009))
+    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", -1001938062638))
 
     LOGGER = logging
 
